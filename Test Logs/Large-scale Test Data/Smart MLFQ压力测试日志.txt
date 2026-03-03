@@ -1,0 +1,316 @@
+=======================================================
+      STRESS TEST: 5 Processes (2 CPU, 2 IO, 1 Mixed)
+=======================================================
+(PID 3) [CPU-Heavy] Started. Resp: 0 ms
+    (PID 3) CPU Phase 0/80
+[MLFQ PRED] PID: 3 | Used: 2/2 | Score: 1000 | Level: 0 -> 1
+(PID 4) [IO-Heavy ] Started. Resp: 2 ms
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+(PID 5) [CPU-Heavy] Started. Resp: 2 ms
+[MLFQ PRED] PID: 5 | Used: 2/2 | Score: 1000 | Level: 0 -> 1
+(PID 6) [Mixed-Work] Started. Resp: 4 ms
+    (PID 6) Mix Phase 0/80
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 1000 | Level: 0 -> 1
+(PID 7) [IO-Heavy ] Started. Resp: 6 ms
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+    (PID 4) I/O Yield 0/80
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+    (PID 7) I/O Yield 0/80
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 1/2 | Score: 500 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 300 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 180 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 108 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 64 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 38 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 22 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 13 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 7 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 4 | Level: 0 -> 0
+    (PID 4) I/O Yield 20/80
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+    (PID 7) I/O Yield 20/80
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 2 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 1 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 1/2 | Score: 500 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 300 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 180 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 108 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 64 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 38 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 22 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 13 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 7 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 4 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 2 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 1 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+    (PID 4) I/O Yield 40/80
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+    (PID 7) I/O Yield 40/80
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 1/2 | Score: 500 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 300 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 180 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 108 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 64 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 38 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 22 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 13 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 7 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 4 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 2 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 1 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 1/2 | Score: 500 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 300 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 180 | Level: 0 -> 0
+    (PID 4) I/O Yield 60/80
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+    (PID 7) I/O Yield 60/80
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 108 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 64 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 38 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 22 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 1/2 | Score: 500 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 13 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 300 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 7 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 180 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 4 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 108 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 2 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 64 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 1 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 38 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 0 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 22 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 1/2 | Score: 500 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 1/2 | Score: 213 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 300 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 127 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 180 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 76 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 108 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 45 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 64 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 27 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 38 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 16 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 22 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 9 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 13 | Level: 0 -> 0
+[MLFQ PRED] PID: 4 | Used: 0/2 | Score: 5 | Level: 0 -> 0
+[MLFQ PRED] PID: 7 | Used: 0/2 | Score: 7 | Level: 0 -> 0
+    (PID 4) I/O Yield 79/80
+[RESULT] PID: 4 | Type: IO-Heavy  | Resp: 2 ms | Turnaround: 13 ms
+
+[Kernel Stat] PID 4 Exit Info:
+    - Context Switches: 162
+    - CPU Occupied Time: 4 ticks
+    (PID 7) I/O Yield 79/80
+[RESULT] PID: 7 | Type: IO-Heavy  | Resp: 6 ms | Turnaround: 13 ms
+
+[Kernel Stat] PID 7 Exit Info:
+    - Context Switches: 162
+    - CPU Occupied Time: 3 ticks
+[MLFQ PRED] PID: 3 | Used: 4/4 | Score: 1000 | Level: 1 -> 2
+    (PID 5) CPU Phase 0/80
+[MLFQ PRED] PID: 5 | Used: 4/4 | Score: 1000 | Level: 1 -> 2
+[MLFQ PRED] PID: 6 | Used: 1/4 | Score: 700 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 420 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 252 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 151 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 90 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 54 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 32 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 19 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 411 | Level: 0 -> 1
+[MLFQ PRED] PID: 6 | Used: 1/4 | Score: 346 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 207 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 124 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 74 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 44 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 26 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 15 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 9 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 405 | Level: 0 -> 1
+    (PID 6) Mix Phase 20/80
+[MLFQ PRED] PID: 6 | Used: 2/4 | Score: 443 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 265 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 159 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 95 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 57 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 34 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 20 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 1/2 | Score: 212 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 527 | Level: 0 -> 1
+[MLFQ PRED] PID: 6 | Used: 0/4 | Score: 316 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 189 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 113 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 1/2 | Score: 267 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 160 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 96 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 57 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 34 | Level: 0 -> 0
+    (PID 6) Mix Phase 40/80
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 420 | Level: 0 -> 1
+[MLFQ PRED] PID: 6 | Used: 1/4 | Score: 352 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 211 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 126 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 75 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 45 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 27 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 16 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 9 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 405 | Level: 0 -> 1
+[MLFQ PRED] PID: 6 | Used: 1/4 | Score: 343 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 205 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 123 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 73 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 43 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 25 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 15 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 9 | Level: 0 -> 0
+    (PID 6) [MLFQ PRED] PID: 6 | Used: 2/2 | Score: 405 | Level: 0 -> 1
+Mix Phase 60/80
+[MLFQ PRED] PID: 6 | Used: 2/4 | Score: 443 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 265 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 159 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 95 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 57 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 34 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 1/2 | Score: 220 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 132 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 2/2 | Score: 479 | Level: 0 -> 1
+[MLFQ PRED] PID: 6 | Used: 1/4 | Score: 387 | Level: 1 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 232 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 139 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 83 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 49 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 29 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 17 | Level: 0 -> 0
+[MLFQ PRED] PID: 6 | Used: 0/2 | Score: 10 | Level: 0 -> 0
+    (PID 6) Mix Phase 79/80
+[RESULT] PID: 6 | Type: Mixed-Work| Resp: 4 ms | Turnaround: 47 ms
+
+[Kernel Stat] PID 6 Exit Info:
+    - Context Switches: 75
+    - CPU Occupied Time: 28 ticks
+[MLFQ PRED] PID: 3 | Used: 8/8 | Score: 1000 | Level: 2 -> 3
+[MLFQ PRED] PID: 5 | Used: 8/8 | Score: 1000 | Level: 2 -> 3
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 3) CPU Phase 20/80
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 5) CPU Phase 20/80
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 3) CPU Phase 40/80
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 5) CPU Phase 40/80
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 3) CPU Phase 60/80
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 5) CPU Phase 60/80
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 3 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+[MLFQ PRED] PID: 5 | Used: 16/16 | Score: 1000 | Level: 3 -> 3
+    (PID 3) CPU Phase 79/80
+[RESULT] PID: 3 | Type: CPU-Heavy | Resp: 0 ms | Turnaround: 321 ms
+
+[Kernel Stat] PID 3 Exit Info:
+    - Context Switches: 24
+    - CPU Occupied Time: 144 ticks
+    (PID 5) CPU Phase 79/80
+[RESULT] PID: 5 | Type: CPU-Heavy | Resp: 2 ms | Turnaround: 323 ms
+
+[Kernel Stat] PID 5 Exit Info:
+    - Context Switches: 24
+    - CPU Occupied Time: 144 ticks
+
+=======================================================
+                  TEST COMPLETE                        
+=======================================================
