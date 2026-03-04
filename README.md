@@ -29,9 +29,9 @@
 3. **智能MLFQ** (核心) - 引入行为预测的改进算法
 
 ### 项目文件分支
-- [Smart MLFQ完整代码](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/tree/main/Smart%20MLFG)
-- [实验指导书](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/blob/main/%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6/Smart%20MLFQ%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf)
-- [测试日志](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/tree/main/%E6%B5%8B%E8%AF%95%E6%97%A5%E5%BF%97)
+- [Smart MLFQ Implementation Code](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/tree/main/Smart%20MLFG)
+- [Experiment Guide](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/blob/main/%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6/Smart%20MLFQ%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf)
+- [Test Logs](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/tree/main/%E6%B5%8B%E8%AF%95%E6%97%A5%E5%BF%97)
 - [Demo](https://gitlab.eduxiji.net/T202510269998251/project3035746-358881/-/blob/main/demo(video)/demo.mp4)
 
 ## 开发环境搭建
@@ -205,6 +205,6 @@ proc->cpu_score = (6 * proc->cpu_score + 4 * current_ratio) / 10;
 
 ## 参考文献
 
-1. **操作系统概念**（第九版）Abraham Silberschatz等，第5章CPU调度
-2. **现代操作系统**（第四版）Andrew S. Tanenbaum，第2章进程与线程
-3. **uCore OS实验指导书**，清华大学操作系统课程组
+1. **《操作系统概念》**（第九版）Abraham Silberschatz等，第5章CPU调度
+2. **《现代操作系统》**（第四版）Andrew S. Tanenbaum，第2章进程与线程
+3. **《uCore OS实验指导书》**，清华大学操作系统课程组
