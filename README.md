@@ -186,11 +186,18 @@ proc->cpu_score = (6 * proc->cpu_score + 4 * current_ratio) / 10;
 
 调度算法的资源效率与性能对比和平均响应时间对比见下图：
 
-[Comparison of Context Switches and Turnaround Time Across Scheduling Algorithms](https://ibb.co/Xfq3Yh3v)
-
-[Average Response Time Comparison](https://ibb.co/k6WKPXRz)
-
-
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/A-Smart-MLFQ-Project-Based-on-uCore/%E5%B9%B3%E5%9D%87%E5%93%8D%E5%BA%94%E6%97%B6%E9%97%B4%E5%AF%B9%E6%AF%94.png" width="800" alt="平均响应时间对比">
+    <br>
+    <em>图1：平均响应时间对比</em>
+</div>
+<br>
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/Image-Hosting/images/A-Smart-MLFQ-Project-Based-on-uCore/调度算法的资源利用率与性能对比.png" width="800" alt="调度算法的资源利用率与性能对比">
+    <br>
+    <em>图2：调度算法的资源利用率与性能对比</em>
+</div>
+<br>
 测试实验结果分析：基于 5 个进程的压力测试 ( 2 CPU + 2 I/O + 1 Mixed )。
 
 | 维度 | 指标 | Round Robin (RR) | Basic MLFQ | Smart MLFQ | 数据解读 |
