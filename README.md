@@ -2,7 +2,10 @@
 
 本项目基于清华大学uCore OS教学实验代码修改。<br>原始代码版权归清华大学所有，遵循GPLv2协议。
 
-
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/VisionNext100/VisionNext100.github.io@main/public/images/projects/project-mlfq.png" width="800" alt="A-Smart-MLFQ-Project-Based-on-uCore">
+    <br>
+</div>
 
 ## 项目概述
 
